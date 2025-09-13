@@ -1,0 +1,81 @@
+.main-header .logo {
+  /*font-weight: bold;*/
+}
+
+.skin-blue .main-header .logo {
+  background-color: #010202;
+}
+
+.skin-blue .main-header .logo:hover {
+  background-color: #010202;
+}
+
+.skin-blue .main-header .navbar {
+  background-color: #010202;
+}
+
+.skin-blue .main-sidebar {
+  background-color: #010202;  
+}
+
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+  background-color: #260000;
+}
+
+.skin-blue .main-sidebar .sidebar .sidebar-menuitem .active a:hover{
+  background-color: #010202;
+}
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a:hover{
+  background-color: #260000;
+}
+
+/* Adjust the sidebar menu items */
+.sidebar-menu > li > a > .icon {
+  float: none;
+}
+
+/* Adjust the sidebar when collapsed */
+.sidebar-collapse .sidebar-menu > li > a > .icon {
+  display: block;
+  margin-left: 15px;
+}
+
+
+.content-wrapper {
+  background-color: #222b2e;
+}
+.form-group, .selectize-control {
+           margin-bottom: 0px;
+}
+.box-body {
+  padding-bottom: 0px;
+}
+
+
+#dashboard_summary_output {
+  background-color: transparent !important;
+  font-size: 20px !important;
+}
+
+.btn-custom {
+  background-color: #1E90FF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 4px #999;
+}
+.btn-custom:hover {
+  background-color: #40B8AF;
+}
+.btn-custom:active {
+  background-color: #40B8AF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
